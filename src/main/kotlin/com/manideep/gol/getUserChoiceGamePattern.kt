@@ -19,6 +19,7 @@ fun getUserChoiceGamePattern(): GamePattern {
     println("12. hwssPattern")
     println("13. pulsarPattern")
     println("14. pentadecathlonPattern")
+    println("15. gosperglidergunPattern")
 
 
     println("*******Waiting for UserINPUT********")
@@ -39,6 +40,7 @@ fun getUserChoiceGamePattern(): GamePattern {
     var hwssPattern = HWSSPattern()
     val pulsarPattern = PulsarPattern()
     val pentadecathlonPattern = PentadecathlonPattern()
+    val gosperglidergunPattern = GosperglidergunPattern()
 
     return if (patternNumber == 1)
         blockPattern
@@ -68,6 +70,8 @@ fun getUserChoiceGamePattern(): GamePattern {
         pulsarPattern
     else if (patternNumber == 14)
         pentadecathlonPattern
+    else if(patternNumber == 15)
+       gosperglidergunPattern
     else
         blockPattern
 }

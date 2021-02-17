@@ -5,7 +5,7 @@ fun main() {
     //println("Enter Game Screen required Row Count")
     val rowCount =25//scanner.nextInt()
     //println("Enter Game Screen required Column Count")
-    val colCount =25//scanner.nextInt()
+    val colCount =40//scanner.nextInt()
 
     // Prepare Game Grid
 
