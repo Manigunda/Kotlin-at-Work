@@ -49,6 +49,10 @@ IDE : Intellij
 
 Build system: Gradle (It is used for building the project, testing in Intellij Ide)
 
+Testcases: Junit
+
+The complete project was developed by using Koltin features.
+
 
 
 
