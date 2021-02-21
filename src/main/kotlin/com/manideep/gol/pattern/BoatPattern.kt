@@ -16,6 +16,12 @@ class BoatPattern : GamePattern {
         CellPosition(6, 20), CellPosition(6, 21),
         CellPosition(7, 20), CellPosition(7, 22),
         CellPosition(8, 21),
+        CellPosition(18, 20), CellPosition(18, 21),
+        CellPosition(19, 20), CellPosition(19, 22),
+        CellPosition(20, 21),
+        CellPosition(12, 20), CellPosition(12, 21),
+        CellPosition(13, 20), CellPosition(13, 22),
+        CellPosition(14, 21),
 
     )
     override val patternName: String
