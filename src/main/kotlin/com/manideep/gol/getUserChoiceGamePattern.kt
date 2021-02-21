@@ -20,6 +20,8 @@ fun getUserChoiceGamePattern(): GamePattern {
     println("13. pulsarPattern")
     println("14. pentadecathlonPattern")
     println("15. gosperglidergunPattern")
+    println("16. simkinglidergunPattern")
+
 
 
     println("*******Waiting for UserINPUT********")
@@ -41,6 +43,7 @@ fun getUserChoiceGamePattern(): GamePattern {
     val pulsarPattern = PulsarPattern()
     val pentadecathlonPattern = PentadecathlonPattern()
     val gosperglidergunPattern = GosperglidergunPattern()
+    val simkinglidergunPattern = Simkinglidergun()
 
     return if (patternNumber == 1)
         blockPattern
@@ -72,6 +75,8 @@ fun getUserChoiceGamePattern(): GamePattern {
         pentadecathlonPattern
     else if(patternNumber == 15)
        gosperglidergunPattern
+    else if (patternNumber == 16)
+        simkinglidergunPattern
     else
         blockPattern
 }

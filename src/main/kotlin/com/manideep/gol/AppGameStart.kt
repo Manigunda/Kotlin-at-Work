@@ -3,7 +3,7 @@ package com.manideep.gol
 fun main() {
     //println("Enter Grid Count, rows and columns separately")
     //println("Enter Game Screen required Row Count")
-    val rowCount =25//scanner.nextInt()
+    val rowCount =30//scanner.nextInt()
     //println("Enter Game Screen required Column Count")
     val colCount =40//scanner.nextInt()
 
