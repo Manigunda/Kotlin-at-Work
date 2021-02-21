@@ -34,7 +34,7 @@ fun getUserChoiceGamePattern(): GamePattern {
     var beeHivePattern = BeeHivePattern()
     var toadPattern = ToadPattern()
     var lwssPattern = LWSSPattern()
-    var loafPattern = ToadPattern()
+    var loafPattern = LoafPattern()
     var beaconPattern = BeaconPattern()
     var mwssPattern = MWSSPattern()
     val tubPattern = TubPattern()
