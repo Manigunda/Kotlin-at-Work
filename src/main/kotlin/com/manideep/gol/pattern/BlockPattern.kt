@@ -11,7 +11,7 @@ class BlockPattern : GamePattern {
         CellPosition(12, 25),CellPosition(12, 26),
         CellPosition(13, 25),CellPosition(13, 26),
         CellPosition(8, 25),CellPosition(8, 26),
-        CellPosition(9, 25),CellPosition(9, 26x)
+        CellPosition(9, 25),CellPosition(9, 26)
 
 
     )
