@@ -16,7 +16,7 @@ class Simkinglidergun: GamePattern {
         CellPosition(19, 22), CellPosition(19, 23),
         CellPosition(20, 22),
         CellPosition(21, 23), CellPosition(21, 24), CellPosition(21, 25),
-        CellPosition(26, 25)
+        CellPosition(22, 25)
 
     )
     override val patternName: String
