@@ -10,7 +10,7 @@ fun main() {
     // Prepare Game Grid
 
     val gamePattern = getUserChoiceGamePattern()
-    val cellPixelSize = 20
+    val cellPixelSize = 15
     val gameGrid = GameGrid(cellPixelSize, rowCount, colCount,gamePattern.patternName)
 
     //Prepare Initial State of Grid based on User Input
