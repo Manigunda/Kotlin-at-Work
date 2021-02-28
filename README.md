@@ -26,9 +26,9 @@ Oscillators: Blinker,Toad,Beacon,Pulsar,Pentadecathlon.
 
 Spaceships: Glider,Leight weight spaceships(LWSS),Middle weight spaceships(MWSS), Heavy weight spaceships(HWSS).
 
-One more pattern which waaas developed was Gosper glider gun pattern which was led Bill Gosper.it was the first glider in 15th generation.
+One more pattern which was developed was Gosper glider gun pattern which was led Bill Gosper.it was the first glider in 15th generation.
 
-All the above patterns workd according the rules.
+All the above patterns worked according the rules.
 
 I have developed the above patterns using Koltin programming language.
 
