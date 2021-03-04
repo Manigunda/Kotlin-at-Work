@@ -4,8 +4,9 @@ import com.manideep.gol.CellPosition
 
 class ToadPattern : GamePattern {
     override var cellPositions = arrayOf(
-        CellPosition(12, 12), CellPosition(12, 13), CellPosition(12, 14),
-        CellPosition(13, 11), CellPosition(13, 14), CellPosition(13, 13)
+        CellPosition(6, 12), CellPosition(6, 13), CellPosition(6, 14),
+        CellPosition(7, 11), CellPosition(7, 12), CellPosition(7, 13)
+
     )
     override val patternName: String
         get() = "ToadPattern"

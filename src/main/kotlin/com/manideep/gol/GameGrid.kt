@@ -31,7 +31,7 @@ class GameGrid(cellPixelSize: Int, private val rowCount: Int, private val colCou
         (0..rowLastIndex).map { i ->
             (0..colLastIndex).map { j ->
                 val cell = cellLabels[i][j]
-                cell.setBackground(Color.LIGHT_GRAY)
+                cell.setBackground(Color.BLACK)
                 cell.setBorder(BorderFactory.createLineBorder(Color.GRAY, 1))
                 cell.setOpaque(true)
                 contentPane.add(cell)
@@ -48,7 +48,7 @@ class GameGrid(cellPixelSize: Int, private val rowCount: Int, private val colCou
                 if (cells[i][j].isAlive) {
                     cellLabels[i][j].setBackground(Color.WHITE)
                 } else {
-                    cellLabels[i][j].setBackground(Color.LIGHT_GRAY)
+                    cellLabels[i][j].setBackground(Color.BLACK)
                 }
             }
         }
