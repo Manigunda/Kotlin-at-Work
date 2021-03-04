@@ -19,8 +19,10 @@ fun main() {
 
 
     gameGrid.refreshGridCellsStatus(gameProcessor.gameCells)
-    runGameInLoop(gameGrid,gameProcessor)
+    RunGameInLoop(gameGrid,gameProcessor)
 }
+
+
 
 fun makeInitialPatternCellsAlive(gameProcessor: GameProcessor, cellPositions: Array<CellPosition>) {
     for (cellPosition in cellPositions) {
