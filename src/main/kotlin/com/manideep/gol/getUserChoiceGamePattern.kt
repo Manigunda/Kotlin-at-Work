@@ -3,7 +3,7 @@ package com.manideep.gol
 import com.manideep.gol.pattern.*
 import java.util.*
 
-fun GetUserChoiceGamePattern(): GamePattern {
+fun getUserChoiceGamePattern(): GamePattern {
 
     println("1. blockPattern")
     println("2. blinkerPattern")
