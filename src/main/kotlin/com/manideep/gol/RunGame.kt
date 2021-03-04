@@ -1,6 +1,6 @@
 package com.manideep.gol
 
-fun runGameInLoop(gameGrid: GameGrid, gameProcessor: GameProcessor) {
+fun RunGameInLoop(gameGrid: GameGrid, gameProcessor: GameProcessor) {
     // Sleep before making first move
     Thread.sleep( 10 * 1000);
     while(true) {

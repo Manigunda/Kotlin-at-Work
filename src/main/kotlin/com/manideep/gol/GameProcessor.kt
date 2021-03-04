@@ -23,7 +23,7 @@ class GameProcessor(private val rowCount: Int, colCount: Int) {
     private fun nextCellStatus(cellPos: CellPosition): Boolean {
         val cell = gameCells[cellPos.x][cellPos.y]
         val neighboursAlive = countNeighborsAlive(cellPos)
-        return canCellSurviveOrPopulate(cell.isAlive, neighboursAlive)
+        return CanCellSurviveOrPopulate(cell.isAlive, neighboursAlive)
     }
 
 
