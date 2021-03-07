@@ -8,7 +8,12 @@ class GameProcessor(private val rowCount: Int, colCount: Int) {
     var gameCells = (0..rowLastIndex).map {
         (0..colLastIndex).map { Cell() }
     }
-
+//    Cell cells[][];
+//    for(int i=0; i<=rowLastIndex; i++) {
+//        for(int j=0;j<=colLastIndex;j++) {
+//            cell[i][j] = new Cell[i][j];
+//        }
+//    }
 
     fun getNextStepGridCells(): List<List<Cell>> {
         gameCells = (0..rowLastIndex).map { i ->

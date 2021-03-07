@@ -8,4 +8,4 @@ package com.manideep.gol.rules
         if (isAlive && countOfNeighborsAlive in 0..1) false
         else if (isAlive && countOfNeighborsAlive in 4..8) false
         else if (isAlive && countOfNeighborsAlive in 2..3) true
-        else !isAlive && countOfNeighborsAlive == 3
+        else !isAlive   && countOfNeighborsAlive == 3
